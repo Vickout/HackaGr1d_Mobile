@@ -18,17 +18,18 @@ export default function Planning() {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Como você quer planejar?</Text>
+            
             <TouchableOpacity>
                 <Image style={styles.image} source={corretor} />
             </TouchableOpacity>
-
             <Text style={styles.description}>Com um <Text style={styles.boldText}>Insurance Travel</Text> </Text>
+            
             <TouchableOpacity
                 onPress={NavigateToLogin}
             >
                 <Image style={styles.image} source={sozinho} />
             </TouchableOpacity>
-
+            <Text style={styles.description}>Sozinho</Text>
 
         </View>
     );
